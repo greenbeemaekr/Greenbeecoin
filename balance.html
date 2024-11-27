@@ -76,10 +76,29 @@
             font-size: 18px;
         }
 
+        .task-button {
+            background-color: #ffffff; 
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+        }
+
+        .task-button:hover {
+            background-color: #f0ff98;
+        }
 
         @media (max-width: 600px) {
             .task-container {
                 max-width: 100%;
+            }
+
+            .task-button {
+                padding: 10px 15px;
+                font-size: 14px;
             }
 
             .task h4 {
@@ -108,7 +127,25 @@
         </a>
         
        <BR>
-    
+    <div class="task-container">
+        <div class="task">
+            <div class="task-detail">
+                <div class="task-image">
+                    <img src="material/images/ton.png" width="45px" alt="">
+                </div>
+                <div>
+                    <h4>Link your wallet </h4>
+                    <div class="task-data">
+                        <img src="material/images/logo.png" width="20px" alt="Coin Icon">
+                        <h5>💳</h5>
+                    </div>
+                </div>
+            </div>
+          
+            
+
+        </div>
+        <br> <br>
         <img src="material/images/logo.png" width="50%">
                 <nav class="bottom-nav">
             <a href="home.html" class="nav-item">
